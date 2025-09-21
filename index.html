@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cherry | Personal Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0d0d0d, #001f3f);
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #00ffcc;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    header a {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #00ffcc;
+      color: #0d0d0d;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    header a:hover {
+      background: #00cc99;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,255,204,0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d0d0d;
+      border-top: 1px solid #222;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Cherry 👋</h1>
+    <p>Electrical Engineering Student | Tech Explorer | Problem Solver</p>
+    <a href="#about">Explore My World</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Cherry, a Diploma student in Electrical Engineering (Power Option). Passionate about
+      technology, problem-solving, and exploring new ways to blend engineering with computing.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">⚡ Electrical Engineering</div>
+      <div class="card">🌐 Networking & CMD Tricks</div>
+      <div class="card">🛠️ Ethical Hacking Basics</div>
+      <div class="card">🎯 Problem Solving</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">💡 Mini Electronics Builds</div>
+      <div class="card">💻 Laptop & Network Tweaks</div>
+      <div class="card">📓 Engineering Notes</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cherry. All rights reserved.</p>
+  </footer>
+</body>
+</html>
